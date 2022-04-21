@@ -1,0 +1,17 @@
+{
+  "name": "convert-png-folder-to-ico",
+  "version": "1.0.0",
+  "description": "Convert png files in a folder to ico files",
+  "main": "index.js",
+  "scripts": {
+    "start": "node convert-png-to-ico.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.2",
+    "png-to-ico": "^2.1.4"
+  }
+}
