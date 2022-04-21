@@ -4,14 +4,24 @@
   "description": "Convert png files in a folder to ico files",
   "main": "index.js",
   "scripts": {
-    "start": "node convert-png-to-ico.js"
+    "start": "node dist/convert-png-to-ico.js",
+    "dev": "ts-node ./src/convert-png-to-ico.ts"
   },
-  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^8.2.2",
     "png-to-ico": "^2.1.4"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^8.2.1",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
   }
 }
