@@ -4,9 +4,10 @@
   "description": "Convert png files in a folder to ico files",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/convert-png-to-ico.js",
-    "dev": "ts-node ./src/convert-png-to-ico.ts",
-    "build": "tsc -p ./tsconfig.json"
+    "start": "node dist/app.js",
+    "dev": "ts-node ./src/app.ts",
+    "build": "tsc -p ./tsconfig.json",
+    "test": "jest --coverage --detectOpenHandles"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,7 @@
   },
   "devDependencies": {
     "@types/inquirer": "^8.2.1",
+    "@types/jest": "^27.4.1",
     "@typescript-eslint/eslint-plugin": "^5.20.0",
     "@typescript-eslint/parser": "^5.20.0",
     "eslint": "^8.13.0",
@@ -25,6 +27,8 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^15.1.0",
     "eslint-plugin-promise": "^6.0.0",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.3"
   }
