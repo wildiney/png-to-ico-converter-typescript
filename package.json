@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^8.2.2",
-    "png-to-ico": "^2.1.4"
+    "png-to-ico": "^2.1.8"
   },
   "devDependencies": {
     "@types/inquirer": "^8.2.1",
