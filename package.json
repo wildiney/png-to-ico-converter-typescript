@@ -13,16 +13,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@inquirer/input": "^4.1.1",
-    "png-to-ico": "^2.1.8"
+    "@inquirer/input": "^5.0.10",
+    "png-to-ico": "^3.0.1"
   },
   "devDependencies": {
-    "@eslint/js": "^9.17.0",
-    "@types/inquirer": "^9.0.7",
-    "@types/jest": "^29.5.14",
-    "eslint": "^9.17.0",
-    "tsx": "^4.19.2",
-    "typescript": "^5.7.2",
-    "typescript-eslint": "^8.19.1"
+    "@eslint/js": "^10.0.1",
+    "@types/inquirer": "^9.0.9",
+    "@types/jest": "^30.0.0",
+    "eslint": "^10.1.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.57.1"
   }
 }
